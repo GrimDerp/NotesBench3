@@ -11,18 +11,18 @@ public class SleepynoteDriver {
     Scanner keyboard = new Scanner(System.in);
     String y;
     String n;
-    //string wont take int as a value at the moment
+    //
     //input
     System.out.print("Enter a note: ");
     String note = keyboard.nextLine();
 
-//declare & inst. the object
+//declare & inst. object
     Sleepynote slpy = new Sleepynote();
 
     do {
       System.out.print("save this note for later? ( y/n, '0' to quit)");
     }
-    // sfo---ome more stuff here, like http in standard io
+    // more stuff here, http standard io
 
     // display
     System.out.println(result);
