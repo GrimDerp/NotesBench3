@@ -14,7 +14,7 @@ public class JavaPostRequest {
   private static HttpURLConnection con;
 
   public static void main(String[] args) throws MalformedURLException, ProtocolException, IOException {
-    String url = "httpss://superzen.org";
+    String url = "https://www.superzen.org";
     String urlParameters = "name=TheGrimDerp&occupation=Adjustor";
     byte[] postData = urlParameters.getBytes(StandardCharsets.UTF_8);
 
